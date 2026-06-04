@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "boutique": "فريقو قفصة",
+    "last_updated": "2025-01-01",
+    "currency": "TND",
+    "note": "Ce fichier est exporté depuis l'Admin Django. Remplacez-le pour mettre à jour les prix."
+  },
+  "categories": [
+    { "id": "engrais",   "nom": "أسمدة",             "icone": "🌱" },
+    { "id": "pesticide", "nom": "مبيدات حشرات",       "icone": "🐛" },
+    { "id": "fongicide", "nom": "مبيدات فطرية",       "icone": "🍄" },
+    { "id": "herbicide", "nom": "مبيدات الأعشاب",     "icone": "🌿" },
+    { "id": "semences",  "nom": "بذور",               "icone": "🌾" },
+    { "id": "materiel",  "nom": "مواد ومعدات",        "icone": "🔧" }
+  ],
+  "produits": [
+    {
+      "id": 1,
+      "code_barres": "6191234560001",
+      "nom": "سماد NPK 15-15-15",
+      "categorie_id": "engrais",
+      "description": "سماد مركب متوازن مناسب لجميع أنواع المزروعات. يحتوي على النيتروجين والفوسفور والبوتاسيوم بنسب متساوية.",
+      "prix_vente": 45.500,
+      "unite": "كيس 25 كغ",
+      "disponible": true,
+      "image": null
+    },
+    {
+      "id": 2,
+      "code_barres": "6191234560002",
+      "nom": "سماد يوريا 46%",
+      "categorie_id": "engrais",
+      "description": "سماد آزوتي عالي التركيز. مناسب لمرحلة النمو الخضري. يستعمل خلال موسم الزراعة.",
+      "prix_vente": 38.000,
+      "unite": "كيس 25 كغ",
+      "disponible": true,
+      "image": null
+    },
+    {
+      "id": 3,
+      "code_barres": "6191234560003",
+      "nom": "سماد سوبر فوسفات 46%",
+      "categorie_id": "engrais",
+      "description": "سماد فوسفوري يُحسّن نمو الجذور ويُقوّي المزروعات. يُضاف عند التحضير.",
+      "prix_vente": 32.500,
+      "unite": "كيس 25 كغ",
+      "disponible": true,
+      "image": null
+    },
+    {
+      "id": 4,
+      "code_barres": "6191234560004",
+      "nom": "كبريتات البوتاسيوم",
+      "categorie_id": "engrais",
+      "description": "سماد بوتاسي لتحسين جودة الثمار ومقاومة الأمراض والجفاف.",
+      "prix_vente": 55.000,
+      "unite": "كيس 25 كغ",
+      "disponible": false,
+      "image": null
+    },
+    {
+      "id": 5,
+      "code_barres": "6191234560005",
+      "nom": "Dursban 48 — رش المزروعات",
+      "categorie_id": "pesticide",
+      "description": "مبيد حشري واسع الطيف لمكافحة الحشرات الضارة في الحبوب والخضروات والأشجار المثمرة.",
+      "prix_vente": 28.000,
+      "unite": "لتر",
+      "disponible": true,
+      "image": null
+    },
+    {
+      "id": 6,
+      "code_barres": "6191234560006",
+      "nom": "Lambda — مبيد حشري",
+      "categorie_id": "pesticide",
+      "description": "مبيد حشري بيريثرويد للقضاء على حشرات المص والقرض. يُستعمل على الخضروات والحبوب.",
+      "prix_vente": 22.500,
+      "unite": "لتر",
+      "disponible": true,
+      "image": null
+    },
+    {
+      "id": 7,
+      "code_barres": "6191234560007",
+      "nom": "Mancozeb — فطريات الطماطم",
+      "categorie_id": "fongicide",
+      "description": "مبيد فطري وقائي لمكافحة أمراض الفطريات في الطماطم والبطاطا والكروم.",
+      "prix_vente": 18.000,
+      "unite": "كغ",
+      "disponible": true,
+      "image": null
+    },
+    {
+      "id": 8,
+      "code_barres": "6191234560008",
+      "nom": "Carbendazim — مرض البياض",
+      "categorie_id": "fongicide",
+      "description": "مبيد فطري جهازي لعلاج ووقاية المزروعات من أمراض الفطريات الجهازية.",
+      "prix_vente": 24.000,
+      "unite": "لتر",
+      "disponible": true,
+      "image": null
+    },
+    {
+      "id": 9,
+      "code_barres": "6191234560009",
+      "nom": "Glyphosate 360 — مبيد الأعشاب",
+      "categorie_id": "herbicide",
+      "description": "مبيد أعشاب شامل غير انتقائي. يقضي على الحشائش البرية في الحقول والمسالك.",
+      "prix_vente": 16.500,
+      "unite": "لتر",
+      "disponible": true,
+      "image": null
+    },
+    {
+      "id": 10,
+      "code_barres": "6191234560010",
+      "nom": "2,4-D — مبيد العشبيات العريضة",
+      "categorie_id": "herbicide",
+      "description": "مبيد أعشاب انتقائي لمكافحة الأعشاب العريضة في حقول القمح والشعير.",
+      "prix_vente": 12.000,
+      "unite": "لتر",
+      "disponible": true,
+      "image": null
+    },
+    {
+      "id": 11,
+      "code_barres": "6191234560011",
+      "nom": "بذور قمح صلب — نسيم",
+      "categorie_id": "semences",
+      "description": "بذور قمح صلب معتمدة من المعهد الوطني. صنف مقاوم للجفاف مناسب للمناطق الداخلية.",
+      "prix_vente": 52.000,
+      "unite": "كيس 50 كغ",
+      "disponible": true,
+      "image": null
+    },
+    {
+      "id": 12,
+      "code_barres": "6191234560012",
+      "nom": "بذور شعير — روابح",
+      "categorie_id": "semences",
+      "description": "بذور شعير معتمدة. إنتاجية عالية ومقاومة للأمراض. مناسبة لمناخ قفصة.",
+      "prix_vente": 44.000,
+      "unite": "كيس 50 كغ",
+      "disponible": true,
+      "image": null
+    },
+    {
+      "id": 13,
+      "code_barres": "6191234560013",
+      "nom": "خرطوم رش 15 لتر",
+      "categorie_id": "materiel",
+      "description": "رشاش ظهري يدوي سعة 15 لتر. مناسب لرش المبيدات والمخصبات السائلة.",
+      "prix_vente": 95.000,
+      "unite": "قطعة",
+      "disponible": true,
+      "image": null
+    },
+    {
+      "id": 14,
+      "code_barres": "6191234560014",
+      "nom": "قفاز حماية — جفت مطاطي",
+      "categorie_id": "materiel",
+      "description": "قفازات مطاطية سميكة للحماية عند التعامل مع المبيدات والأسمدة الكيماوية.",
+      "prix_vente": 8.500,
+      "unite": "زوج",
+      "disponible": true,
+      "image": null
+    }
+  ]
+}

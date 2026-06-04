@@ -7,7 +7,7 @@
   "use strict";
 
   /* ─── CONFIG ──────────────────────────────────────── */
-  const DATA_URL = "data/products.json";
+  const DATA_URL = "products.json";
 
   /* ─── STATE ───────────────────────────────────────── */
   let allProducts    = [];
